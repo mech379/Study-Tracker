@@ -28,4 +28,4 @@ if __name__ == "__main__":
     elif len(sys.argv) >= 2 and sys.argv[1] == "list":
         list_sessions()
     else:
-        print("Usage: tracker.py add <topic> <minutes> | list")
+        print("Usage: python tracker.py add <topic> <minutes> | list")
